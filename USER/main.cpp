@@ -6,6 +6,7 @@
 #include "CUsart.h"
 #include "gpio.h"
 #include "lora.h"
+#include "LogicInfoDefine.h"
 uint8_t test_buf[10] = {0,0,0,0,0,0,0,0,0,0};
 const uint8_t RX_BUFF_LENGTH = 100;
 uint8_t rx_buff[RX_BUFF_LENGTH];
@@ -46,6 +47,7 @@ int main()
 			}
 			Console::Instance()->printf("\r\n");
 		}
+		
 	}
 }
 

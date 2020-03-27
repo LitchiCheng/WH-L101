@@ -1142,123 +1142,123 @@ Memory Map of the image
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x08000000   0x08000000   0x00000130   Data   RO          354    RESET               startup_stm32f10x_hd.o
-    0x08000130   0x08000130   0x00000000   Code   RO          884  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
-    0x08000130   0x08000130   0x00000004   Code   RO          964    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
-    0x08000134   0x08000134   0x00000004   Code   RO          967    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
-    0x08000138   0x08000138   0x00000000   Code   RO          969    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
-    0x08000138   0x08000138   0x00000004   Code   RO          970    .ARM.Collect$$$$00000009  mc_w.l(entry8a.o)
-    0x0800013c   0x0800013c   0x00000000   Code   RO          971    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
-    0x0800013c   0x0800013c   0x00000008   Code   RO          972    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
-    0x08000144   0x08000144   0x00000000   Code   RO          974    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
-    0x08000144   0x08000144   0x00000004   Code   RO          975    .ARM.Collect$$$$0000000E  mc_w.l(entry10b.o)
-    0x08000148   0x08000148   0x00000000   Code   RO          976    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
-    0x08000148   0x08000148   0x00000004   Code   RO          965    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
+    0x08000000   0x08000000   0x00000130   Data   RO          357    RESET               startup_stm32f10x_hd.o
+    0x08000130   0x08000130   0x00000000   Code   RO          781  * .ARM.Collect$$$$00000000  mc_w.l(entry.o)
+    0x08000130   0x08000130   0x00000004   Code   RO          861    .ARM.Collect$$$$00000001  mc_w.l(entry2.o)
+    0x08000134   0x08000134   0x00000004   Code   RO          864    .ARM.Collect$$$$00000004  mc_w.l(entry5.o)
+    0x08000138   0x08000138   0x00000000   Code   RO          866    .ARM.Collect$$$$00000008  mc_w.l(entry7b.o)
+    0x08000138   0x08000138   0x00000004   Code   RO          867    .ARM.Collect$$$$00000009  mc_w.l(entry8a.o)
+    0x0800013c   0x0800013c   0x00000000   Code   RO          868    .ARM.Collect$$$$0000000A  mc_w.l(entry8b.o)
+    0x0800013c   0x0800013c   0x00000008   Code   RO          869    .ARM.Collect$$$$0000000B  mc_w.l(entry9a.o)
+    0x08000144   0x08000144   0x00000000   Code   RO          871    .ARM.Collect$$$$0000000D  mc_w.l(entry10a.o)
+    0x08000144   0x08000144   0x00000004   Code   RO          872    .ARM.Collect$$$$0000000E  mc_w.l(entry10b.o)
+    0x08000148   0x08000148   0x00000000   Code   RO          873    .ARM.Collect$$$$0000000F  mc_w.l(entry11a.o)
+    0x08000148   0x08000148   0x00000004   Code   RO          862    .ARM.Collect$$$$00002712  mc_w.l(entry2.o)
     0x0800014c   0x0800014c   0x0000004c   Code   RO            1    .text               commonconfig.o
     0x08000198   0x08000198   0x00000064   Code   RO          106    .text               stm32f10x_it.o
     0x080001fc   0x080001fc   0x00000160   Code   RO          154    .text               main.o
-    0x0800035c   0x0800035c   0x00000154   Code   RO          206    .text               system_stm32f10x.o
-    0x080004b0   0x080004b0   0x000000b0   Code   RO          258    .text               misc.o
-    0x08000560   0x08000560   0x0000026c   Code   RO          271    .text               stm32f10x_gpio.o
-    0x080007cc   0x080007cc   0x000002b4   Code   RO          284    .text               stm32f10x_rcc.o
-    0x08000a80   0x08000a80   0x000001c8   Code   RO          299    .text               stm32f10x_dma.o
-    0x08000c48   0x08000c48   0x00000328   Code   RO          312    .text               stm32f10x_usart.o
-    0x08000f70   0x08000f70   0x0000003c   Code   RO          339    .text               stm32f10x_iwdg.o
-    0x08000fac   0x08000fac   0x00000024   Code   RO          355    .text               startup_stm32f10x_hd.o
-    0x08000fd0   0x08000fd0   0x000001c4   Code   RO          383    .text               console.o
-    0x08001194   0x08001194   0x0000075c   Code   RO          525    .text               segger_rtt.o
-    0x080018f0   0x080018f0   0x00000450   Code   RO          549    .text               cusart.o
-    0x08001d40   0x08001d40   0x000000dc   Code   RO          583    .text               timer.o
-    0x08001e1c   0x08001e1c   0x00000264   Code   RO          613    .text               gpio.o
-    0x08002080   0x08002080   0x000003d0   Code   RO          630    .text               lora.o
-    0x08002450   0x08002450   0x00000024   Code   RO          887    .text               mc_w.l(memcpya.o)
-    0x08002474   0x08002474   0x00000024   Code   RO          889    .text               mc_w.l(memseta.o)
-    0x08002498   0x08002498   0x0000000e   Code   RO          891    .text               mc_w.l(strlen.o)
-    0x080024a6   0x080024a6   0x00000012   Code   RO          893    .text               mc_w.l(strcpy.o)
-    0x080024b8   0x080024b8   0x00000020   Code   RO          928    .text               mc_w.l(cpp_init.o)
-    0x080024d8   0x080024d8   0x0000002e   Code   RO          930    .text               mc_w.l(aeabi_atexit.o)
-    0x08002506   0x08002506   0x00000004   Code   RO          935    .text               cpprt_w.l(arm_newhandler_noexceptions.o)
-    0x0800250a   0x0800250a   0x0000002c   Code   RO          981    .text               mc_w.l(uidiv.o)
-    0x08002536   0x08002536   0x00000062   Code   RO          983    .text               mc_w.l(uldiv.o)
-    0x08002598   0x08002598   0x00000000   Code   RO         1013    .text               mc_w.l(iusefp.o)
-    0x08002598   0x08002598   0x00000008   Code   RO         1014    .text               mc_w.l(cpp_dtor.o)
-    0x080025a0   0x080025a0   0x00000014   Code   RO         1017    .text               mc_w.l(cpp_memory.o)
-    0x080025b4   0x080025b4   0x00000002   Code   RO         1020    .text               mc_w.l(cpp_signal.o)
-    0x080025b6   0x080025b6   0x00000042   Code   RO         1022    .text               mc_w.l(cxa_finalize.o)
-    0x080025f8   0x080025f8   0x0000014e   Code   RO         1024    .text               mf_w.l(dadd.o)
-    0x08002746   0x08002746   0x000000e4   Code   RO         1026    .text               mf_w.l(dmul.o)
-    0x0800282a   0x0800282a   0x000000de   Code   RO         1028    .text               mf_w.l(ddiv.o)
-    0x08002908   0x08002908   0x00000030   Code   RO         1030    .text               mf_w.l(dfixul.o)
-    0x08002938   0x08002938   0x00000030   Code   RO         1032    .text               mf_w.l(cdrcmple.o)
-    0x08002968   0x08002968   0x0000001a   Code   RO         1050    .text               cpprt_w.l(arm_exceptions_terminate.o)
+    0x0800035c   0x0800035c   0x00000154   Code   RO          209    .text               system_stm32f10x.o
+    0x080004b0   0x080004b0   0x000000b0   Code   RO          261    .text               misc.o
+    0x08000560   0x08000560   0x0000026c   Code   RO          274    .text               stm32f10x_gpio.o
+    0x080007cc   0x080007cc   0x000002b4   Code   RO          287    .text               stm32f10x_rcc.o
+    0x08000a80   0x08000a80   0x000001c8   Code   RO          302    .text               stm32f10x_dma.o
+    0x08000c48   0x08000c48   0x00000328   Code   RO          315    .text               stm32f10x_usart.o
+    0x08000f70   0x08000f70   0x0000003c   Code   RO          342    .text               stm32f10x_iwdg.o
+    0x08000fac   0x08000fac   0x00000024   Code   RO          358    .text               startup_stm32f10x_hd.o
+    0x08000fd0   0x08000fd0   0x000001c4   Code   RO          386    .text               console.o
+    0x08001194   0x08001194   0x0000075c   Code   RO          528    .text               segger_rtt.o
+    0x080018f0   0x080018f0   0x00000450   Code   RO          552    .text               cusart.o
+    0x08001d40   0x08001d40   0x000000dc   Code   RO          586    .text               timer.o
+    0x08001e1c   0x08001e1c   0x00000264   Code   RO          616    .text               gpio.o
+    0x08002080   0x08002080   0x000003d0   Code   RO          633    .text               lora.o
+    0x08002450   0x08002450   0x00000024   Code   RO          784    .text               mc_w.l(memcpya.o)
+    0x08002474   0x08002474   0x00000024   Code   RO          786    .text               mc_w.l(memseta.o)
+    0x08002498   0x08002498   0x0000000e   Code   RO          788    .text               mc_w.l(strlen.o)
+    0x080024a6   0x080024a6   0x00000012   Code   RO          790    .text               mc_w.l(strcpy.o)
+    0x080024b8   0x080024b8   0x00000020   Code   RO          825    .text               mc_w.l(cpp_init.o)
+    0x080024d8   0x080024d8   0x0000002e   Code   RO          827    .text               mc_w.l(aeabi_atexit.o)
+    0x08002506   0x08002506   0x00000004   Code   RO          832    .text               cpprt_w.l(arm_newhandler_noexceptions.o)
+    0x0800250a   0x0800250a   0x0000002c   Code   RO          878    .text               mc_w.l(uidiv.o)
+    0x08002536   0x08002536   0x00000062   Code   RO          880    .text               mc_w.l(uldiv.o)
+    0x08002598   0x08002598   0x00000000   Code   RO          910    .text               mc_w.l(iusefp.o)
+    0x08002598   0x08002598   0x00000008   Code   RO          911    .text               mc_w.l(cpp_dtor.o)
+    0x080025a0   0x080025a0   0x00000014   Code   RO          914    .text               mc_w.l(cpp_memory.o)
+    0x080025b4   0x080025b4   0x00000002   Code   RO          917    .text               mc_w.l(cpp_signal.o)
+    0x080025b6   0x080025b6   0x00000042   Code   RO          919    .text               mc_w.l(cxa_finalize.o)
+    0x080025f8   0x080025f8   0x0000014e   Code   RO          921    .text               mf_w.l(dadd.o)
+    0x08002746   0x08002746   0x000000e4   Code   RO          923    .text               mf_w.l(dmul.o)
+    0x0800282a   0x0800282a   0x000000de   Code   RO          925    .text               mf_w.l(ddiv.o)
+    0x08002908   0x08002908   0x00000030   Code   RO          927    .text               mf_w.l(dfixul.o)
+    0x08002938   0x08002938   0x00000030   Code   RO          929    .text               mf_w.l(cdrcmple.o)
+    0x08002968   0x08002968   0x0000001a   Code   RO          947    .text               cpprt_w.l(arm_exceptions_terminate.o)
     0x08002982   0x08002982   0x00000002   PAD
-    0x08002984   0x08002984   0x00000050   Code   RO         1057    .text               cpprt_w.l(arm_exceptions_globs.o)
-    0x080029d4   0x080029d4   0x00000024   Code   RO         1063    .text               mc_w.l(init.o)
-    0x080029f8   0x080029f8   0x0000001e   Code   RO         1066    .text               mc_w.l(llshl.o)
-    0x08002a16   0x08002a16   0x00000020   Code   RO         1068    .text               mc_w.l(llushr.o)
-    0x08002a36   0x08002a36   0x00000024   Code   RO         1070    .text               mc_w.l(llsshr.o)
-    0x08002a5a   0x08002a5a   0x00000002   Code   RO         1075    .text               mc_w.l(cpp_final.o)
-    0x08002a5c   0x08002a5c   0x000000ba   Code   RO         1077    .text               mf_w.l(depilogue.o)
-    0x08002b16   0x08002b16   0x0000003c   Code   RO         1082    .text               cpprt_w.l(arm_exceptions_mem.o)
-    0x08002b52   0x08002b52   0x00000004   Code   RO          453    i._ZN11CRttConsole11getFreeSizeEv  console.o
-    0x08002b56   0x08002b56   0x0000000a   Code   RO          447    i._ZN11CRttConsole4openEv  console.o
-    0x08002b60   0x08002b60   0x0000000c   Code   RO          441    i._ZN11CRttConsole5writeEPht  console.o
-    0x08002b6c   0x08002b6c   0x00000004   Code   RO          459    i._ZN11CRttConsole6isIdelEv  console.o
-    0x08002b70   0x08002b70   0x0000000e   Code   RO          438    i._ZN11CRttConsoleD0Ev  console.o
+    0x08002984   0x08002984   0x00000050   Code   RO          954    .text               cpprt_w.l(arm_exceptions_globs.o)
+    0x080029d4   0x080029d4   0x00000024   Code   RO          960    .text               mc_w.l(init.o)
+    0x080029f8   0x080029f8   0x0000001e   Code   RO          963    .text               mc_w.l(llshl.o)
+    0x08002a16   0x08002a16   0x00000020   Code   RO          965    .text               mc_w.l(llushr.o)
+    0x08002a36   0x08002a36   0x00000024   Code   RO          967    .text               mc_w.l(llsshr.o)
+    0x08002a5a   0x08002a5a   0x00000002   Code   RO          972    .text               mc_w.l(cpp_final.o)
+    0x08002a5c   0x08002a5c   0x000000ba   Code   RO          974    .text               mf_w.l(depilogue.o)
+    0x08002b16   0x08002b16   0x0000003c   Code   RO          979    .text               cpprt_w.l(arm_exceptions_mem.o)
+    0x08002b52   0x08002b52   0x00000004   Code   RO          456    i._ZN11CRttConsole11getFreeSizeEv  console.o
+    0x08002b56   0x08002b56   0x0000000a   Code   RO          450    i._ZN11CRttConsole4openEv  console.o
+    0x08002b60   0x08002b60   0x0000000c   Code   RO          444    i._ZN11CRttConsole5writeEPht  console.o
+    0x08002b6c   0x08002b6c   0x00000004   Code   RO          462    i._ZN11CRttConsole6isIdelEv  console.o
+    0x08002b70   0x08002b70   0x0000000e   Code   RO          441    i._ZN11CRttConsoleD0Ev  console.o
     0x08002b7e   0x08002b7e   0x00000002   PAD
-    0x08002b80   0x08002b80   0x0000000c   Code   RO          432    i._ZN11CRttConsoleD1Ev  console.o
-    0x08002b8c   0x08002b8c   0x00000002   Code   RO          426    i._ZN8CConsole11COstreamDev14runTransmitterEv  console.o
+    0x08002b80   0x08002b80   0x0000000c   Code   RO          435    i._ZN11CRttConsoleD1Ev  console.o
+    0x08002b8c   0x08002b8c   0x00000002   Code   RO          429    i._ZN8CConsole11COstreamDev14runTransmitterEv  console.o
     0x08002b8e   0x08002b8e   0x00000002   PAD
-    0x08002b90   0x08002b90   0x0000000c   Code   RO          473    i._ZN8CConsole11COstreamDevD0Ev  console.o
-    0x08002b9c   0x08002b9c   0x00000008   Code   RO          768    i._ZdlPv            cpprt_w.l(delete.o)
-    0x08002ba4   0x08002ba4   0x00000028   Code   RO          771    i._Znwj             cpprt_w.l(new.o)
-    0x08002bcc   0x08002bcc   0x0000002c   Code   RO          903    i.__0vsnprintf      mc_w.l(printfa.o)
-    0x08002bf8   0x08002bf8   0x00000006   Code   RO          775    i.__cxa_pure_virtual  cpprt_w.l(pure_virt.o)
-    0x08002bfe   0x08002bfe   0x0000000e   Code   RO         1098    i.__scatterload_copy  mc_w.l(handlers.o)
-    0x08002c0c   0x08002c0c   0x00000002   Code   RO         1099    i.__scatterload_null  mc_w.l(handlers.o)
-    0x08002c0e   0x08002c0e   0x0000000e   Code   RO         1100    i.__scatterload_zeroinit  mc_w.l(handlers.o)
-    0x08002c1c   0x08002c1c   0x00000184   Code   RO          905    i._fp_digits        mc_w.l(printfa.o)
-    0x08002da0   0x08002da0   0x000006dc   Code   RO          906    i._printf_core      mc_w.l(printfa.o)
-    0x0800347c   0x0800347c   0x00000024   Code   RO          907    i._printf_post_padding  mc_w.l(printfa.o)
-    0x080034a0   0x080034a0   0x0000002e   Code   RO          908    i._printf_pre_padding  mc_w.l(printfa.o)
-    0x080034ce   0x080034ce   0x00000016   Code   RO          909    i._snputc           mc_w.l(printfa.o)
-    0x080034e4   0x080034e4   0x00000050   Code   RO          985    i.free              mc_w.l(malloc.o)
-    0x08003534   0x08003534   0x0000006c   Code   RO          986    i.malloc            mc_w.l(malloc.o)
-    0x080035a0   0x080035a0   0x0000005c   Code   RO          396    t._ZN12ringque_baseIcE10push_arrayEPct  console.o
-    0x080035fc   0x080035fc   0x00000068   Code   RO          558    t._ZN12ringque_baseIhE10push_arrayEPht  cusart.o
+    0x08002b90   0x08002b90   0x0000000c   Code   RO          476    i._ZN8CConsole11COstreamDevD0Ev  console.o
+    0x08002b9c   0x08002b9c   0x00000008   Code   RO          665    i._ZdlPv            cpprt_w.l(delete.o)
+    0x08002ba4   0x08002ba4   0x00000028   Code   RO          668    i._Znwj             cpprt_w.l(new.o)
+    0x08002bcc   0x08002bcc   0x0000002c   Code   RO          800    i.__0vsnprintf      mc_w.l(printfa.o)
+    0x08002bf8   0x08002bf8   0x00000006   Code   RO          672    i.__cxa_pure_virtual  cpprt_w.l(pure_virt.o)
+    0x08002bfe   0x08002bfe   0x0000000e   Code   RO          995    i.__scatterload_copy  mc_w.l(handlers.o)
+    0x08002c0c   0x08002c0c   0x00000002   Code   RO          996    i.__scatterload_null  mc_w.l(handlers.o)
+    0x08002c0e   0x08002c0e   0x0000000e   Code   RO          997    i.__scatterload_zeroinit  mc_w.l(handlers.o)
+    0x08002c1c   0x08002c1c   0x00000184   Code   RO          802    i._fp_digits        mc_w.l(printfa.o)
+    0x08002da0   0x08002da0   0x000006dc   Code   RO          803    i._printf_core      mc_w.l(printfa.o)
+    0x0800347c   0x0800347c   0x00000024   Code   RO          804    i._printf_post_padding  mc_w.l(printfa.o)
+    0x080034a0   0x080034a0   0x0000002e   Code   RO          805    i._printf_pre_padding  mc_w.l(printfa.o)
+    0x080034ce   0x080034ce   0x00000016   Code   RO          806    i._snputc           mc_w.l(printfa.o)
+    0x080034e4   0x080034e4   0x00000050   Code   RO          882    i.free              mc_w.l(malloc.o)
+    0x08003534   0x08003534   0x0000006c   Code   RO          883    i.malloc            mc_w.l(malloc.o)
+    0x080035a0   0x080035a0   0x0000005c   Code   RO          399    t._ZN12ringque_baseIcE10push_arrayEPct  console.o
+    0x080035fc   0x080035fc   0x00000068   Code   RO          561    t._ZN12ringque_baseIhE10push_arrayEPht  cusart.o
     0x08003664   0x08003664   0x0000001c   Code   RO          169    t._ZN15NormalSingletonI10CBaseTimerE8InstanceEv  main.o
     0x08003680   0x08003680   0x0000001c   Code   RO          116    t._ZN15NormalSingletonI8CConsoleE8InstanceEv  stm32f10x_it.o
-    0x0800369c   0x0800369c   0x00000010   Code   RO          402    t._ZNK12ringque_baseIcE10elemsInQueEv  console.o
-    0x080036ac   0x080036ac   0x00000012   Code   RO          408    t._ZNK12ringque_baseIcE15emptyElemsInQueEv  console.o
+    0x0800369c   0x0800369c   0x00000010   Code   RO          405    t._ZNK12ringque_baseIcE10elemsInQueEv  console.o
+    0x080036ac   0x080036ac   0x00000012   Code   RO          411    t._ZNK12ringque_baseIcE15emptyElemsInQueEv  console.o
     0x080036be   0x080036be   0x00000002   PAD
-    0x080036c0   0x080036c0   0x00000028   Data   RO          415    .constdata__ZTV11CRttConsole  console.o
-    0x080036e8   0x080036e8   0x00000028   Data   RO          466    .constdata__ZTVN8CConsole11COstreamDevE  console.o
-    0x08003710   0x08003710   0x00000020   Data   RO         1096    Region$$Table       anon$$obj.o
+    0x080036c0   0x080036c0   0x00000028   Data   RO          418    .constdata__ZTV11CRttConsole  console.o
+    0x080036e8   0x080036e8   0x00000028   Data   RO          469    .constdata__ZTVN8CConsole11COstreamDevE  console.o
+    0x08003710   0x08003710   0x00000020   Data   RO          993    Region$$Table       anon$$obj.o
     0x08003730   0x08003730   0x00000004   Data   RO          158    .init_array         main.o
-    0x08003734   0x08003730   0x00000004   Data   RO          387    .init_array         console.o
-    0x08003738   0x08003730   0x00000000   Data   RO          926    .init_array         mc_w.l(cpp_init.o)
+    0x08003734   0x08003730   0x00000004   Data   RO          390    .init_array         console.o
+    0x08003738   0x08003730   0x00000000   Data   RO          823    .init_array         mc_w.l(cpp_init.o)
 
 
     Execution Region RW_IRAM1 (Exec base: 0x20000000, Load base: 0x08003738, Size: 0x00000e78, Max: 0x00005000, ABSOLUTE)
 
     Exec Addr    Load Addr    Size         Type   Attr      Idx    E Section Name        Object
 
-    0x20000000   0x08003738   0x00000014   Data   RW          208    .data               system_stm32f10x.o
-    0x20000014   0x0800374c   0x00000014   Data   RW          286    .data               stm32f10x_rcc.o
-    0x20000028   0x08003760   0x00000011   Data   RW          528    .data               segger_rtt.o
-    0x20000039   0x08003771   0x00000050   Data   RW          632    .data               lora.o
+    0x20000000   0x08003738   0x00000014   Data   RW          211    .data               system_stm32f10x.o
+    0x20000014   0x0800374c   0x00000014   Data   RW          289    .data               stm32f10x_rcc.o
+    0x20000028   0x08003760   0x00000011   Data   RW          531    .data               segger_rtt.o
+    0x20000039   0x08003771   0x00000050   Data   RW          635    .data               lora.o
     0x20000089   0x080037c1   0x00000003   PAD
-    0x2000008c   0x080037c4   0x00000004   Data   RW         1015    .data               mc_w.l(cpp_dtor.o)
-    0x20000090   0x080037c8   0x0000000c   Data   RW         1018    .data               mc_w.l(cpp_memory.o)
-    0x2000009c   0x080037d4   0x00000004   Data   RW         1072    .data               mc_w.l(mvars.o)
-    0x200000a0   0x080037d8   0x00000004   Data   RW         1073    .data               mc_w.l(mvars.o)
+    0x2000008c   0x080037c4   0x00000004   Data   RW          912    .data               mc_w.l(cpp_dtor.o)
+    0x20000090   0x080037c8   0x0000000c   Data   RW          915    .data               mc_w.l(cpp_memory.o)
+    0x2000009c   0x080037d4   0x00000004   Data   RW          969    .data               mc_w.l(mvars.o)
+    0x200000a0   0x080037d8   0x00000004   Data   RW          970    .data               mc_w.l(mvars.o)
     0x200000a4   0x080037dc   0x00000004   Data   RW          175    .data__ZN15NormalSingletonI10CBaseTimerE3insE  main.o
     0x200000a8   0x080037e0   0x00000004   Data   RW          122    .data__ZN15NormalSingletonI8CConsoleE3insE  stm32f10x_it.o
     0x200000ac        -       0x00000084   Zero   RW          157    .bss                main.o
-    0x20000130        -       0x00000290   Zero   RW          386    .bss                console.o
-    0x200003c0        -       0x000004b8   Zero   RW          527    .bss                segger_rtt.o
-    0x20000878        -       0x00000200   Zero   RW          353    HEAP                startup_stm32f10x_hd.o
-    0x20000a78        -       0x00000400   Zero   RW          352    STACK               startup_stm32f10x_hd.o
+    0x20000130        -       0x00000290   Zero   RW          389    .bss                console.o
+    0x200003c0        -       0x000004b8   Zero   RW          530    .bss                segger_rtt.o
+    0x20000878        -       0x00000200   Zero   RW          356    HEAP                startup_stm32f10x_hd.o
+    0x20000a78        -       0x00000400   Zero   RW          355    STACK               startup_stm32f10x_hd.o
 
 
 ==============================================================================
@@ -1268,28 +1268,28 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        76          4          0          0          0     256395   commonconfig.o
-       648         22         84          0        656      13320   console.o
+        76          4          0          0          0     256303   commonconfig.o
+       648         22         84          0        656      13052   console.o
          0          0          0          0          0         32   core_cm3.o
-      1208         48          0          0          0       9468   cusart.o
-       612         12          0          0          0       2620   gpio.o
-       976         24          0         80          0     211116   lora.o
-       380         84          4          4        132       5973   main.o
-       176         14          0          0          0       1773   misc.o
+      1208         48          0          0          0       9376   cusart.o
+       612         12          0          0          0       2600   gpio.o
+       976         24          0         80          0       4556   lora.o
+       380         84          4          4        132       5913   main.o
+       176         14          0          0          0       1757   misc.o
          0          0          0          0          0        576   rtt_vsnprintf.o
-      1884         36          0         17       1208      15278   segger_rtt.o
-        36          8        304          0       1536        776   startup_stm32f10x_hd.o
-       456         10          0          0          0       4570   stm32f10x_dma.o
-       620         36          0          0          0       5765   stm32f10x_gpio.o
-       128         42          0          4          0      19040   stm32f10x_it.o
-        60          6          0          0          0       1265   stm32f10x_iwdg.o
-       692         32          0         20          0       8880   stm32f10x_rcc.o
-       808         22          0          0          0       8708   stm32f10x_usart.o
-       340         32          0         20          0       1923   system_stm32f10x.o
-       220         12          0          0          0      19608   timer.o
+      1884         36          0         17       1208      15242   segger_rtt.o
+        36          8        304          0       1536        764   startup_stm32f10x_hd.o
+       456         10          0          0          0       4550   stm32f10x_dma.o
+       620         36          0          0          0       5749   stm32f10x_gpio.o
+       128         42          0          4          0      18968   stm32f10x_it.o
+        60          6          0          0          0       1257   stm32f10x_iwdg.o
+       692         32          0         20          0       8852   stm32f10x_rcc.o
+       808         22          0          0          0       8688   stm32f10x_usart.o
+       340         32          0         20          0       1895   system_stm32f10x.o
+       220         12          0          0          0      19528   timer.o
 
     ----------------------------------------------------------------------
-      9326        444        424        148       3532     587086   Object Totals
+      9326        444        424        148       3532     379658   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          6          0          0          3          0          0   (incl. Padding)
 
@@ -1365,8 +1365,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     13712        600        424        172       3532     585862   Grand Totals
-     13712        600        424        172       3532     585862   ELF Image Totals
+     13712        600        424        172       3532     378434   Grand Totals
+     13712        600        424        172       3532     378434   ELF Image Totals
      13712        600        424        172          0          0   ROM Totals
 
 ==============================================================================
